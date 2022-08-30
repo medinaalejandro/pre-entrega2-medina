@@ -1,0 +1,94 @@
+/* Reseteo */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo Navbar and Footer*/
+.bg-brow{
+    background-color: brown;
+}
+
+/* Estilo Body */
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Estilo Button */
+.btn-primary{
+    background-color: rgba(56, 50, 50, 0.445);
+    border-color:white;
+    transition: all 0.2s ease-out;
+  }
+  
+  /* Estilo Hover Button */
+  .btn-primary:hover{
+    background-color: lightgray;
+    border-color: lightgray;
+    color: brown;
+    transform: scale(0.8);
+  }
+
+  /* Estilo Footer */
+footer{
+    width: 100%;
+    background-color: brown;
+    height: 200px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo Li */
+footer ul li{
+    list-style: none;
+}
+
+/* Id Galeria */
+#galeria .col-lg-4{
+    padding: 5px;
+}
+
+/* Estilo Img Galeria */
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+
+
+.anchoFooter{
+    margin-top: 30px;
+}
+
+.redes{
+    display: inline-block;
+}
+
+.bi-facebook{
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.bi-facebook:hover{
+    color: #3b5998;
+}
+
+.bi-instagram{
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.bi-instagram:hover{
+    color: #8a3ab9;
+}
+
+@media (max-width: 576px) { 
+    .mt-mobile{
+      margin-top: 2rem;
+    }
+  }
